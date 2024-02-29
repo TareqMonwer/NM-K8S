@@ -6,3 +6,4 @@
 + `kubectl delete deployment platforms-depl` - delete deployment (stop all containers)
 + `kubectl apply -f platforms-nodeport-srvc.yaml` -  route external traffic on NodePort to the pods running the <br> platformservice Deployment on port 80.
 + `kubectl get services` - show services and returned ports.
++ `kubectl delete service platformsnodportservice` - delete deployment (stop all containers)
